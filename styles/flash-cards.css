@@ -10,12 +10,6 @@ label:has(input[type="checkbox"]) {
   color: var(--foreground, #DDD);
   background-color: var(--background, #333);
   border: 1px solid var(--foreground, #DDD);
-
-  @media (prefers-color-scheme: light) {
-    color: var(--background, #333);
-    background-color: var(--foreground, #DDD);
-    border: 1px solid var(--background, #333);
-  }
 }
 
 label:has(input[type="checkbox"]) {
@@ -53,11 +47,6 @@ label:has(input[type="checkbox"]) {
 :has(>#deck-controls) {
   background-color: var(--background, #333);
   color: var(--foreground, #DDD);
-
-  @media (prefers-color-scheme: light) {
-    background-color: var(--foreground, #DDD);
-    color: var(--background, #333);
-  }
 
   width: 100%;
   flex-grow: 1;
@@ -103,12 +92,6 @@ progress[aria-disabled="true"] {
 
   background-color: var(--foreground, #DDD);
   color: var(--background, #333);
-
-  @media (prefers-color-scheme: light) {
-    color: var(--background, #333);
-    background-color: var(--foreground, #DDD);
-    border: 1px solid var(--background, #333);
-  }
 
   border-radius: 1rem;
 
